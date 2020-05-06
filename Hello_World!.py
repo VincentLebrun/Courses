@@ -1,3 +1,6 @@
-print("Hello World !")
-print("ceci est un exercice visant à utiliser l'outil python")
-int(input("Saisissez une année"))
+nb = 7
+i = 0
+
+while i < 10:
+   print(i + 1, "*", nb, "=",(i + 1) * nb)
+   i += 1
